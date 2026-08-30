@@ -162,6 +162,9 @@ router.post("/verify-user", async (req, res) => {
       error: error.message,
     });
   }
+
+  
 });
 
 module.exports = router;
+

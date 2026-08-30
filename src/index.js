@@ -10,7 +10,7 @@ const {
   GatewayIntentBits,
 } = require("discord.js");
 
-const verifyUserWebhook = require("./webhooks/verify-user");
+const verifyUserWebhook = require("../src/webhooks/verify-user");
 
 const PORT = Number(process.env.PORT) || 3000;
 
